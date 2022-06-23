@@ -1,1 +1,107 @@
 /* your code here */
+body{
+    background-color: #90ee90;
+}
+.product_container{
+   margin: 0px auto;
+   width:fit-content;
+   display: flex;
+    margin-top: 10%;
+}
+.product_details{
+    width:500px;
+    background-color: white;
+    height:500px;
+    display: flex;
+}
+.product_image{
+    width:300px;
+    /* background-color: black; */
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    left:250px;
+    top:3px;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 6px 24px -5px rgba(0,0,0,0.75);
+
+
+}
+.image1{
+    flex: 0.45;
+    /* background-color:palevioletred; */
+}
+.image2{
+    flex:0.55;
+    /* background-color: aqua; */
+    padding-left:50px;
+    
+}
+.code_test{
+   font-size: 12px;
+   opacity: 0.3;
+}
+.cost_test{
+    color: red;
+    font-size: 20px;
+}
+.cost_price{
+    font-size: 40px; 
+}
+.color_image:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: scale(0.9);
+    cursor: pointer;
+
+}
+.image_container{
+    display: flex;
+}
+li{
+    font-size: 13px;
+}
+.add_to_cart_btn{
+    background-color: red;
+    color:white;
+    padding:20px 35px;
+    border:none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px -5px grey;
+}
+.top-section{
+    flex:0.8;
+  background: radial-gradient(#f4f4f4 30%, #adff2f 70%);
+  border-radius: 10px 10px 0px 0px;
+}
+.bottom-section{
+    flex:0.2;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+.apple-image{
+    position: absolute;
+    left:-100px;
+    height:300px;
+    top:25px;
+}
+.apple_ima{
+    border:0.1px solid grey;
+    /* transform: scale(0.9); */
+}
+.icon1{
+    color:white;
+    margin:10px;
+}
+.icon2{
+    color:white;
+    float: right;
+    margin:15px;
+}
+.apple_ima:hover{
+    transform: scale(0.9);
+}
